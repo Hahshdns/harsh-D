@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1em;
+}
+
+#reviews {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+.review {
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+#add-review-form {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+form {
+  display: grid;
+  gap: 10px;
+}
+
+button {
+  padding: 10px;
+  background-color: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #555;
+}
